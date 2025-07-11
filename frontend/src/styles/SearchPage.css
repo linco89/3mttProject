@@ -1,0 +1,85 @@
+/* styles/SearchPage.css */
+
+.search-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fdfdfd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+.search-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.search-form {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.search-form input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.search-form button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.search-form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.feedback {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.feedback.error {
+  color: red;
+}
+
+.feedback.success {
+  color: green;
+}
+
+.results-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.result-card {
+  flex: 1 1 250px;
+  max-width: 280px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.result-card h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #444;
+}
+
+.result-card button {
+  margin-top: 10px}
